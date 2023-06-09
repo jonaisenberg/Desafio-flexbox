@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.icons {
+    justify-content: space-between;
+    flex-grow: 2;
+    font-size: 19px;
+    display: flex;
+    padding: 20px;
+    color: #828485;
+}
+
+.box {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.first-chat {
+    display: flex;
+    padding-left: 24px;
+    width: 19em;
+    height: 4rem;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+}
+
+.text-one {
+    flex-grow: 11;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.button {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+
+}
+
+button {
+    background-color: #A491D2;
+    color: #FFF;
+    font-size: 16px;
+    width: 199px;
+    height: 46px;
+    border: none;
+}
+
+button:hover {
+    background-color: #CDC3E6;
+}
+
+.the-rest-chat {
+    display: flex;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1F21;
+}
+
+
+.state {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #828485;
+    font-size: 10px;
+}
+
+.message {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1B1F21;
+    font-size: 14px;
+}
+
+.image1 {
+    border-radius: 100%;
+    width: 37px;
+    padding: 9px;
+
+}
+
+.image {
+    padding: 22px;
+    border-radius: 100%;
+    width: 51px;
+    height: 51px;
+}
+
+.image-hand {
+    width: 258px;
+    height: 252px;
+    border-radius: 5%;
+}
+
+.title {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #1B1F21;
+}
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.remarked {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1B1F21;
+}
